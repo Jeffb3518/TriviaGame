@@ -5,13 +5,14 @@ function timer() {
 count=count-1;
 	if (count <=0) {
 		clearInterval(counter);
+		alert("Time is up, You Lose!");
 		return;
 	}
 document.getElementById("timer").innerHTML=count + " secs";
 }
 
 var answers = ["C", "A", "A", "C", "B"],
-	tot = answers.length
+	total = answers.length
 
 function getCheckedValue( radioName ){
     var radios = document.getElementsByName( radioName ); 
@@ -21,7 +22,7 @@ function getCheckedValue( radioName ){
 
 function getScore(){
   var score = 0;
-  for (var i=0; i<tot; i++)
+  for (var i=0; i<total; i++)
     if(getCheckedValue("question"+i)===answers[i]) score += 1; 
   return score;
 }
