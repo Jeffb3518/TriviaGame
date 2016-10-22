@@ -1,11 +1,19 @@
 body {
-	background-color: yellow;
+	background-image: url("../images/president1.png");
 }
 
-
 .row {
-	background-color: red;
+	background-color: white;
+	margin: 100px;
 }
 header {
 	text-align: center;
+}
+
+form {
+	background-color: blue;
+}
+
+.col-sm-12 {
+	color: black;
 }
