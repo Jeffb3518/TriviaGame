@@ -1,19 +1,31 @@
 body {
-	background-image: url("../images/president1.png");
+	background-image: url("../images/patriotic1.png");
 }
 
 .row {
 	background-color: white;
 	margin: 100px;
-}
-header {
-	text-align: center;
+	
 }
 
-form {
-	background-color: blue;
+.panel-default {
+	background-color: red;
+}
+
+.time {
+	background-color: red;
+}
+
+header {
+	text-align: center;
+	color: white;
+	background-color: red;
 }
 
 .col-sm-12 {
+	color: white;
+}
+
+button {
 	color: black;
 }
