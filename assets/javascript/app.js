@@ -8,7 +8,7 @@ count=count-1;
 		alert("Time is up, You Lose!");
 		return;
 	}
-document.getElementById("timer").innerHTML=count + " secs";
+document.getElementById("timer").innerHTML=count + " Seconds";
 }
 
 var answers = ["C", "A", "A", "C", "B"],
